@@ -22,7 +22,7 @@ public class Application {
 
         System.err.println("arguments " + Arrays.toString(arguments));
         if (arguments.length < 1) {
-            System.err.println("There are not parameters");
+            System.err.println("There are no parameters");
             return;
         }
 
