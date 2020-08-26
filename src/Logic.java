@@ -16,7 +16,7 @@ public class Logic {
             resultedData = inputData.stream().map(Integer::parseInt).collect(Collectors.toList());
             return true;
         } catch (NumberFormatException e) {
-            System.err.println("Some number are not integer");
+            System.err.println("Some numbers are not integer");
         }
         return false;
     }
